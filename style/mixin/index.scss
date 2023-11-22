@@ -1,0 +1,12 @@
+@mixin antd-table-row-height {
+  .ant-table-tbody > tr > td {
+    padding: 15px 0px;
+  }
+  .ant-table-thead th {
+    text-align: center;
+    background-color: #f3f3f3;
+  }
+  .ant-table-thead > tr > td {
+    background-color: #f3f3f3;
+  }
+}

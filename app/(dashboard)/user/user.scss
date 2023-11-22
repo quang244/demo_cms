@@ -1,0 +1,9 @@
+@import "style/mixin/index";
+
+.table-user {
+  height: 100vh;
+  overflow-y: scroll;
+  @include antd-table-row-height
+}
+
+
